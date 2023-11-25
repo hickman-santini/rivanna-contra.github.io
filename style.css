@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 600px) {
+    th, td {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        background-color: #e7e7e7;
+    }
+
+    td {
+        border-top: none;
+    }
+
+    td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 90px;
+    }
+
+    tr {
+        margin-bottom: 15px;
+    }
+}
+
