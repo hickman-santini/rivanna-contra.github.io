@@ -11,64 +11,113 @@
       width: 50px;
       height: auto;
     }
-  </style>
 
-  <meta charset="utf-8" />
-  <title>Rivanna Contra Dance</title>
+    .image-container {
+      position: relative;
+      width: 100%;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2em;
+      /* Adjust size as needed */
+      text-align: center;
+      width: 100%;
+      /* Makes sure text is centered in the container */
+      font-weight: bold;
+      /* Makes the text bold */
+    }
+
+    .social-icon {
+      width: 16px;
+      /* Adjust the size as needed */
+      height: 16px;
+      vertical-align: middle;
+      /* Aligns the icon with the text */
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      border-style: solid;
+      border-width: 1px;
+    }
+  </style>
 </head>
 
 <body style="background-image: url(clouds2.jpg)">
+  <div class="image-container">
+    <img src="PXL_20230408_015101247.MP(1).jpg" alt="Rivanna Contra Dance">
+    <div class="overlay-text">
+      Rivanna Contra Dance<br>
+      Every Third Friday at Greenwood Community Center<br>
+      Live Music!<br>
+      Come Dance With Us!
+    </div>
+  </div>
 
-  <table style="border-style:solid; border-width:0px; width:100ex">
-    <td><img src="PXL_20230408_015101247.MP(1).jpg" , width="600">
+  <!-- Table with information -->
+  <table>
+    <tr>
+      <td>
+        Rivanna Contra Dance<br>
+        Every 3rd Friday at Greenwood Community Center<br>
+        865 Greenwood Rd, Crozet, VA 22932<br>
+      </td>
+      <td>
+        <img src="facebook_icon-icons.com_59205.png" alt="Facebook" class="social-icon">
+        <a href="https://www.facebook.com/groups/984316375582303">Facebook</a><br>
+
+        <img src="Instagram_icon-icons.com_66804.png" alt="Instagram" class="social-icon">
+        <a href="https://www.instagram.com/rivannacontradance/">Instagram</a><br>
+      </td>
+    </tr>
   </table>
+</body>
 
 
-  <table style="border-style:solid; border-width:1px; width:90ex">
-    <td>Rivanna Contra Dance<br>
-      Every 3rd Friday at Greenwood Community Center<br>
-      865 Greenwood Rd, Crozet, VA 22932<br>
-    </td>
-    <td>
-      <a href="https://www.facebook.com/groups/984316375582303">Facebook</a><br>
-      <a href="https://www.instagram.com/rivannacontradance/">Instagram</a><br>
-    </td>
+<img class='animated-gif' src="https://media.tenor.com/NJRuyfiZi54AAAAi/cat-kitty.gif" alt="heart-kitten" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Dances</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Caller</th>
+        <th>Band</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Example row -->
+      <tr>
+        <td>December 15, 2023</td>
+        <td>Caroline Barnes</td>
+        <td>The Hot Seats</td>
+      </tr>
+      <!-- Additional rows can be added here -->
+      <tr>
+        <td>January 19, 2024</td>
+        <td>Kappy Laning</td>
+        <td>Dusty Hedgehog</td>
+      </tr>
+    </tbody>
   </table>
-
-  <img class='animated-gif' src="https://media.tenor.com/NJRuyfiZi54AAAAi/cat-kitty.gif" alt="heart-kitten" />
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upcoming Dances</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-    <table>
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Caller</th>
-          <th>Band</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Example row -->
-        <tr>
-          <td>December 15, 2023</td>
-          <td>Caroline Barnes</td>
-          <td>The Hot Seats</td>
-        </tr>
-        <!-- Additional rows can be added here -->
-        <tr>
-          <td>January 19, 2024</td>
-          <td>Kappy Laning</td>
-          <td>Dusty Hedgehog</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+</body>
 
 </html>
 
