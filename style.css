@@ -2,16 +2,61 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Styles from your previous head section */
+h1 {
+    font-size: 0.8em;
+}
+
+img.animated-gif {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Existing table styles */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #ddd;
 }
 
-th, td {
+th,
+td {
     text-align: left;
     padding: 8px;
 }
@@ -22,7 +67,9 @@ th {
 
 /* Responsive design for mobile devices */
 @media screen and (max-width: 600px) {
-    th, td {
+
+    th,
+    td {
         display: block;
         width: 100%;
     }
@@ -46,4 +93,3 @@ th {
         margin-bottom: 15px;
     }
 }
-
